@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>QAL Suspend Borrower</title>
+    <link href="QAL-Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div class="topmargin"><h3>Search and Suspend </h3></div>
+        <br /><div class="leftmargin"></div>
+
+              <div class="centredcontent">
+
+                  <div class="leftside">
+                      <!-- Content for left side-->
+                      <form method="post" action="SuspendFormProcessor.aspx">
+                          <h1>Search Borrower</h1>
+                          <table border="0">
+                              <tr><td>You can search by name , address, or Borrower ID.</td><td></td></tr>
+                              <tr><td>Enter search criteria in the search field and click search:</td><td></td></tr>
+                              <tr><td>Search Field: <input type="text" class="searchbox" name="txtSearchParameter" /></td></tr>
+                          </table>
+                          <br />
+
+                          <select class="bigbox" name="lstBorrowerDetails" multiple="multiple"></select>
+                          <br />
+                          <br />
+                          <div class="QAL-Bar">
+                              <button class="LongButton">Back</button>
+                              <input type="submit" class="LongButton" name="SearchOrSuspend" value="Search" />
+                              <a href="StaffLogedin.html"><button class="LongButton" name="btnMenuButton" value="MainMenu">Main Menu</button></a>
+
+                          </div>
+                      </form>
+
+
+                  </div>
+                  <!-- Content for right side -->
+                  <div class="rightside">
+                      <h1>Suspend Borrower</h1>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <form method="post" action="SuspendFormProcessor.aspx">
+                          <table border="0">
+
+                              <tr><td>Select a reason for suspension:</td></tr>
+                              <tr>
+                                  <td>
+                                      <select name="lstReason">
+                                          <option value="None Selected">None Selected</option>
+                                          <option value="Misconduct">Misconduct</option>
+                                          <option value="Abussive">Abussive</option>
+                                          <option value="Theft">Theft</option>
+                                          <option value="Fake ID">Fake ID</option>
+                                          <option value="Unpaid Fines">Unpaid Fines</option>
+                                          <option value="Physical Damage">Physical Damage</option>
+                                      </select>
+                                  </td>
+                              </tr>
+                              <tr><td>Or add reason for suspension:</td></tr>
+                              <tr><td><textarea rows="1" cols="50" name="AreaBorrowerDetails"></textarea></td></tr>
+                          </table>
+                          <div class="leftside">
+                              <br />
+                              <input class="LongButton" type="submit" name="SearchOrSuspend" value="Suspend" />
+                              <br />
+                              <br />
+                              <input class="LongButton" type="submit" name="SearchOrSuspend" value="Unsuspend" />
+                          </div>
+                      </form>
+
+                      <div class="logo"><img src="images/QAL4logo.png"></div>
+                  </div>
+                  
+              </div>
+
+        <div class="rightmargin"></div>
+        <br /><div class="bottommargin"></div>
+    </div>
+
+
+</body>
+</html>

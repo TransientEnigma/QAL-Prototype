@@ -1,0 +1,187 @@
+﻿body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    background-color: white;
+}
+
+
+
+text {
+    border-color: cornflowerblue;
+    border-width: 5px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+input {
+    border-color: cornflowerblue;
+    border-width: 5px;
+}
+
+button {
+    border-color: cornflowerblue;
+    border-width: 5px;
+}
+
+textarea {
+    border-color: cornflowerblue;
+    border-width: 5px;
+    background-color: #e6eeff;
+}
+.suspendlistbox {
+    height: 300px;
+    width: 500px;
+}
+
+select {
+    height: 40px;
+    width: 500px;
+    border-color: cornflowerblue;
+    border-width: 5px;
+    background-color: #e6eeff;
+}
+
+.middlepage {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainmenu {
+    width: 400px;
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+.topmargin {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.leftmargin {
+    float: left;
+    width: 1%;
+    min-height: 600px;
+    background-color: cornflowerblue
+}
+
+.centredcontent {
+    padding: 1%;
+    float: left;
+    width: 96%;
+    height: 100%;
+    background-color: white
+}
+.searchbox {
+    width: 300px;
+}
+    .rightmargin {
+    float: left;
+    width: 1%;
+    min-height: 600px;
+    background-color: cornflowerblue
+}
+
+.bottommargin {
+    float: left;
+    width: 100%;
+    height: 20px;
+    background-color: cornflowerblue
+}
+
+.QAL-Button {
+
+    border-color: cornflowerblue;
+    height: 30px;
+    width: 100px;
+}
+.suspendmenuButton {
+    float: right;
+}
+
+.LongButton {
+    float:left;
+    margin-right:10px;
+    border-color: cornflowerblue;
+    height: 30px;
+    width: 150px;
+}
+
+.leftside {
+    background-color: white;
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+}
+
+.rightside {
+    background-color: white;
+    float: right;
+    width: 50%;
+}
+
+table td {
+    padding: 10px;
+}
+
+textarea {
+    height: 50px;
+    width: 500px;
+}
+
+.bigbox {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 200px;
+    width: 500px;
+}
+
+
+
+.logo img {
+    width: 200px;
+}
+
+.BorrowerDetailsList {
+    overflow-y: scroll;
+    height: 430px;
+    width: 500px;
+}
+
+.searchbar {
+    width: 90%;
+    margin-left: 10%;
+    float: left;
+}
+
+.BookDetailsTableArea {
+    border: solid;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    overflow-y: scroll;
+    height: 300px;
+    width: 500px;
+}
+
+    .BookDetailsTableArea table {
+        width: 100%;
+        background-color: darkgrey;
+    }
+
+    .BookDetailsTableArea th {
+        background-color: darkgrey;
+    }
+
+    .BookDetailsTableArea tr {
+        background-color: #e0e0d2;
+    }
